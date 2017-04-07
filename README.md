@@ -1,9 +1,9 @@
 # jquery.storelist.js
-- this is a tiny plugin for showing lists in xml with Jquery.
-- such like branch stores list.
+this is a tiny plugin for showing lists in xml with Jquery. <br />
+such like branch stores list.
 
-## usage
-> basic:
+> usage
+basic:
 - select by element:
 ```
 $('div').storelist('yourXmlPath');
