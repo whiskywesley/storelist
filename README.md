@@ -97,5 +97,8 @@ you can style it by your own css.
 
 ## final:
 I'll keeing improving this pluing as i can.<br />
-Thanks for using it.
+if any problems please email to : whiskywosky@gmail.com<br />
+Thanks for using it. <br />
+<br />
+
 
