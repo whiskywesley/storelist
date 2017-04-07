@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>jquery.storelist.js example</title>
+        <style>
+            /* you can style html by your own css */
+            h2 { color:#337ab7; }
+            li { color:#333; }
+        </style>
+    </head>
+
+    <body>
+        <main></main>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="js/jquery.storelist.js"></script>
+        <script type="text/javascript">
+
+            $('main').storelist({
+                
+                path : 'xml/test.xml',
+                loadDone : function(){
+                    // do smething while loading xml is done.
+                },
+                initDone : function(){
+                    // do smething while loading & DOM gererating is done.
+                },
+                error: function(){
+                    // do smething while ajax error.
+                }
+                
+            });
+
+        </script>
+    </body>
+</html>

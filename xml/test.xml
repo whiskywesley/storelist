@@ -1,0 +1,32 @@
+<retails>
+	<store>
+		<district>A dist</district>
+		<name>AA1 store</name>
+		<tel>1111111</tel>
+		<addr>AA add</addr>
+	</store>
+    <store>
+		<district>A dist</district>
+		<name>AA2 store</name>
+		<tel>22222222</tel>
+		<addr>AA2 add</addr>
+	</store>
+    <store>
+		<district>A dist</district>
+		<name>AA3 store</name>
+		<tel>3333333333</tel>
+		<addr>AA3 add</addr>
+	</store>
+    <store>
+		<district>B dist</district>
+		<name>BB1 store</name>
+		<tel>11111</tel>
+		<addr>BBBBBBBB1 add</addr>
+	</store>
+    <store>
+		<district>C dist</district>
+		<name>CC1 store</name>
+		<tel>11111</tel>
+		<addr>CCC1 add</addr>
+	</store>
+</retails>
