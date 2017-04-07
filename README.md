@@ -66,7 +66,7 @@ the xml format must follow below:
 </store>
 ```
 
-## fianl:
+## final:
 the html that generated would look like
 ```
 <div>
