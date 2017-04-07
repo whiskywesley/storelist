@@ -64,10 +64,10 @@ Thanks a lot.
                         for(var i = 0 ; i < distArr.length ; i++){
 
                             self.append(
-                                `<section>
-                                    <h2>` + distArr[i] + `</h2>
-                                    <ul></ul>
-                                </section>`
+                                "<section>\
+                                    <h2>" + distArr[i] + "</h2>\
+                                    <ul></ul>\
+                                </section>"
                             );
 
                             for(var j = 0 ; j < storeArr.length ; j++){
@@ -75,11 +75,11 @@ Thanks a lot.
                                 if(storeArr[j].district === distArr[i]){
 
                                     self.find('ul').eq(i).append(
-                                        `<li>
-                                            <span title="` + storeArr[j].tel + ' ' + storeArr[j].addr + `">
-                                            ` + storeArr[j].name + `
-                                            </span>
-                                        </li>`
+                                        "<li>\
+                                            <span title='" + storeArr[j].tel + " " + storeArr[j].addr + "'>\
+                                            " + storeArr[j].name + "\
+                                            </span>\
+                                        </li>"
                                     );
 
                                 }
