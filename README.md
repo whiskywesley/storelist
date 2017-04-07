@@ -91,6 +91,9 @@ the html that generated would look like
     </section>
 </div>
 ```
+## css:
+There's no css control in this plugin.<br />
+you can style it by your own css.
 
 I'll keeing improving this pluing as i can.<br />
 Thanks for using it.
