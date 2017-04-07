@@ -1,8 +1,8 @@
 # jquery.storelist.js
 this is a plugin for showing branch store lists in xml with Jquery. 
 
-# usage
-# basic:
+<h1></h1>usage
+<h2>basic:</h2> 
 select by element:
 `$('div').storelist('yourXmlPath');` 
 
