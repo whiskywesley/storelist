@@ -10,12 +10,10 @@ Jquery is necessary.
 ```
 
 ## usage:
-select by element:
+basic:
 ```
+//by element
 $('div').storelist('yourXmlPath');
-``` 
-select by class/id:
-```
 //by class
 $('.class').storelist('yourXmlPath'); 
 //by id
@@ -66,7 +64,7 @@ the xml format must follow below:
 </store>
 ```
 
-## final:
+## generated html:
 the html that generated would look like
 ```
 <div>
@@ -95,6 +93,7 @@ the html that generated would look like
 There's no css control in this plugin.<br />
 you can style it by your own css.
 
+## final:
 I'll keeing improving this pluing as i can.<br />
 Thanks for using it.
 
