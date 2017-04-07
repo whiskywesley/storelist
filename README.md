@@ -21,7 +21,7 @@ $('#id').storelist('yourXmlPath');
 ```
 callback:
 ```
-$('div').storelist(function(){
+$('div').storelist({
     path : 'yourXmlPath',
     loadDone : function(){
         // do smething while loading is done.
