@@ -1,5 +1,5 @@
 # jquery.storelist.js
-this is a tiny plugin for showing lists in xml with Jquery. <br />
+This is a tiny plugin for showing lists in xml with Jquery. <br />
 such like branch store list.
 
 ## includes:
