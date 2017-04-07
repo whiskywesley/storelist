@@ -92,6 +92,6 @@ the html that generated would look like
 </div>
 ```
 
-I'll kepping improving this pluing as i can.<br />
+I'll keeing improving this pluing as i can.<br />
 Thanks for using it.
 
