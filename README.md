@@ -22,6 +22,7 @@ $('#id').storelist('yourXmlPath');
 callback:
 ```
 $('div').storelist({
+
     path : 'yourXmlPath',
     loadDone : function(){
         // do smething while loading is done.
@@ -32,6 +33,7 @@ $('div').storelist({
     error: function(){
         // do smething while ajax error.
     }
+    
 });
 ```
 
