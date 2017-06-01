@@ -15,6 +15,7 @@ Thanks a lot.
 
         var defaultSettings = {
             path : '',
+            loadStart: function(){},
             loadDone : function(){},
             initDone : function(){},
             error: function(error){}
@@ -32,6 +33,9 @@ Thanks a lot.
                 type: "GET",
                 url: defaultSettings.path,
                 dataType: "xml",
+                beforeSend: function(){
+                    defaultSettings.loadStart();
+                },
                 error: function(xhr, status, error){
                     
                     defaultSettings.error(error);
